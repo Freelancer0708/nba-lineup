@@ -1,0 +1,316 @@
+/* -------------------------mail.php---------------------- */
+
+.mail_container {
+  width: calc(100% - 30px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mail_lh_15 {
+  line-height: 1.5;
+}
+
+.mail_mt120 {
+  margin-top: 120px;
+}
+.mail_mt100 {
+  margin-top: 100px;
+}
+.mail_mb60 {
+  margin-bottom: 120px;
+}
+
+.mail_f_28,
+.mail_f_28 span {
+  font-size: 28px;
+}
+.mail_f_bold {
+  font-weight: 800;
+}
+
+.mail_mt40 {
+  margin-top: 40px;
+}
+
+.mail_txt_center {
+  text-align: center;
+}
+
+.mail_f_min {
+}
+
+.mail_f_32,
+.mail_f_32 span {
+  font-size: 32px;
+}
+.mail_f_18,
+.mail_f_18 span {
+  font-size: 18px;
+}
+.mail_f_16,
+.mail_f_16 span {
+  font-size: 16px;
+}
+.mail_f_red {
+  color: #ed1c24;
+}
+.mail_mt20 {
+  margin-top: 20px;
+}
+.error_messe {
+  font-size: 16px;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+
+.mail_go_button {
+  max-width: 340px;
+  width: 80%;
+  height: 70px;
+  background-color: #6d899a;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  font-size: 20px;
+  font-family: "Noto Sans JP Bold";
+}
+
+.mail_back_btn {
+  max-width: 340px;
+  width: 80%;
+  height: 70px;
+  background-color: #ffffff;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  color: #6d899a;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  font-size: 20px;
+  font-family: "Noto Sans JP Bold";
+  border: 2px solid #6d899a;
+}
+
+.mail_back_btn:hover {
+  opacity: 0.6;
+}
+
+.mail_center_margin {
+  margin: 20px auto;
+}
+
+.mail_right_margin {
+  margin-right: 20px;
+}
+
+.mail_table01 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #666;
+}
+.mail_mt60 {
+  margin-top: 60px;
+}
+.mail_table01 th {
+  padding: 20px 30px !important;
+  border-right: 1px solid #ccc;
+  width: 40%;
+  text-align: left;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  color: #666;
+  height: auto;
+}
+
+.mail_table01 td {
+  padding: 20px 30px !important;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  color: #666;
+  text-align: left;
+}
+
+.mail_final a {
+  width: 100%;
+  letter-spacing: 0.13em;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #6D899A;
+  max-width: 340px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .4s ease;
+}
+.mail_final a:hover {
+  background: #6D899A;
+  color: white;
+  opacity: 0.6;
+}
+
+.mail_display {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.mail_display .mail_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.mail_pc_block {
+  display: inline;
+}
+
+@media (min-width: 576px) {
+  .mail_container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .mail_container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .mail_container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .mail_container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .mail_back_btn,
+  .mail_go_button {
+    font-size: 16px;
+  }
+  .mail_final a {
+    width: 100%;
+    height: 60px;
+  }
+  .mail_final a {
+    font-size: 16px;
+  }
+  .mail_mt60 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .mail_mt120 {
+    margin-top: 90px;
+  }
+  .mail_mt100 {
+    margin-top: 10vw;
+  }
+  .mail_mb60 {
+    margin-bottom: 4vw;
+  }
+  .mail_txt_left_sp {
+    text-align: left;
+  }
+  .mail_mt40 {
+    margin-top: 20px;
+  }
+  .mail_mt20 {
+    margin-top: 10px;
+  }
+  .mail_table01 th {
+    padding: 3vw 0 0 !important;
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none;
+    font-size: 3.8vw;
+  }
+  .mail_table01 td {
+    padding: 0 0 3vw !important;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    font-size: 3.8vw;
+  }
+  .mail_f_18,
+  .mail_f_18 span {
+    font-size: 3.6vw;
+  }
+  .mail_f_16,
+  .mail_f_16 span {
+    font-size: 3.2vw;
+  }
+  .mail_final a {
+    width: 90%;
+  }
+  .mail_final a {
+    font-size: 3.2vw;
+    width: 100%;
+  }
+  .mail_right_margin {
+    margin-right: auto;
+  }
+  .mail_display {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .mail_button.mail_right_margin {
+    margin-right: auto;
+  }
+  .mail_pc_block {
+    display: none;
+  }
+  .mail_f_32,
+  .mail_f_32 span {
+    font-size: 5vw;
+  }
+  .mail_container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .mail_container h4,
+  .mail_container h4 span {
+    font-size: 3.6vw;
+  }
+  .mail_f_28,
+  .mail_f_28 span {
+    font-size: 4.8vw;
+  }
+  .error_messe {
+    font-size: 3.8vw;
+  }
+  .mail_back_btn, .mail_go_button {
+    height: 16vw;
+    font-size: 3.8vw;
+  }
+  .mail_display {
+    align-items: center;
+  }
+  .mail_display .mail_button {
+    width: 100%;
+    margin-bottom: 4vw;
+  }
+
+}
